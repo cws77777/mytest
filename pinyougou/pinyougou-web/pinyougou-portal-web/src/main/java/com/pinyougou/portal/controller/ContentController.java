@@ -24,6 +24,7 @@ public class ContentController {
     /** 根据广告分类id查询广告内容 */
     @GetMapping("/findContentByCategoryId")
     public List<Content> findContentByCategoryId(Long categoryId){
+        System.out.println(1111);
         return contentService.findContentByCategoryId(categoryId);
     }
 }
