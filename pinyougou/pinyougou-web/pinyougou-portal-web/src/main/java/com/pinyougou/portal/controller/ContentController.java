@@ -25,6 +25,9 @@ public class ContentController {
     @GetMapping("/findContentByCategoryId")
     public List<Content> findContentByCategoryId(Long categoryId){
         System.out.println(1111);
+        System.out.println(22222);
+        System.out.println(333333);
+        System.out.println(4444444);
         return contentService.findContentByCategoryId(categoryId);
     }
 }
